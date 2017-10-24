@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>一个完整的html页面用户注册</title>
+</head>
+<body>
+<form action="check.htm" method="post">
+     学&nbsp;&nbsp;号:<input type="text" name="userid" value="请输入学号" size="8" ><br>
+   用户名:<input type="text" name="username" maxlength="20" value="请输入用户名"><br>
+    密&nbsp;&nbsp;码:<input type="password" name="userpass" value="请输入密码"><br>
+    性&nbsp;&nbsp;别:<input type="radio" name="sex" value="男" checked>&nbsp;
+                     <input type="radio" name="sex" value="女"><br>
+    学&nbsp;&nbsp;院:<select name="depatment">
+    <option value="通信与信息工程学院">通信与信息工程学院</option>
+    <option value="电子信息工程学院">电子信息工程学院</option>
+    <option value="计算机学院">计算机学院</option>
+    <option value="自动化学院">自动化学院</option>
+    <option value="理学院">理学院</option>
+    <option value="经济与管理学院">经济与管理学院</option></select><br>
+    兴&nbsp;&nbsp;趣:<input type="checkbox" name="inst" value="唱歌">唱歌&nbsp;
+    <input type="checkbox" name="inst" value=" 跳舞">跳舞&nbsp;
+    <input type="checkbox" name="inst" value=" 游泳">游泳&nbsp;
+    <input type="checkbox" name="inst" value="编程">编程&nbsp;
+    <input type="checkbox" name="inst" value="上网">上网&nbsp;<br>
+    说&nbsp;&nbsp;明:<br><textarea name="note" rows="5" cols="30">
+    西安邮电大学官方网站:http://www.xupt.edu.cn/
+</textarea><br>
+    <input type="submit" value="注册">
+    <input type="reset" value="重置">
+</form>
+</body>
+</html>
